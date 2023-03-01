@@ -1,0 +1,32 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,900&display=swap');
+
+body{
+ background-color: aquamarine;
+ background-image: url(https://images.unsplash.com/photo-1554446422-d05db23719d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80);
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: rgb(7, 7, 134);
+    display: grid;
+    place-items: center;
+   }
+
+.photo{
+  background-image: url("LABORATORIA/DEV004-card-validation/portada.jpg");
+  width: 900px;
+  height: 250px;
+  border: 2px solid green;
+  background-position: center;
+ }
+   h2{
+    border: 3px solid white;
+    background: linear-gradient(to right, white, cyan);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color:rgb(0, 0, 0);
+    display: grid;
+    place-items: center;
+   }
