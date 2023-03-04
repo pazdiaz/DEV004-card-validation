@@ -55,10 +55,10 @@ const validator = {
   //funcion de maskify
   maskify(numero) {
     numero = numero.toString()
-   let acumulador = ""
+    let acumulador = ""
     for (let i = 0; i < numero.length; i++) {
-      if (i < numero.length - 4) {
-        acumulador = acumulador + numero [i]
+      if (i > numero.length - 5) { //ocultar del 0 al - 5
+        acumulador = acumulador + numero[i]
       } else {
         acumulador = acumulador + "#"
       }
@@ -66,7 +66,7 @@ const validator = {
     return acumulador
   }
 };
-     
-     
+
+
 export default validator;
 
